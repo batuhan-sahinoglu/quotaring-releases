@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>QuotaRing</title>
+        <item>
+            <title>1.0</title>
+            <pubDate>Fri, 23 Oct 2026 22:40:38 +0300</pubDate>
+            <sparkle:version>156</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://raw.githubusercontent.com/batuhan-sahinoglu/quotaring-releases/main/QuotaRing-1.0.dmg" length="7578149" type="application/octet-stream" sparkle:edSignature="8NTr4OB48NjTxChLd10UBRowM7BQSm1qKi84JYvTa/yOOyEFKEEWpoDiizY8JOtAhJ4TOhASJ34+9XyfOLZEBA=="/>
+        </item>
+    </channel>
+</rss>

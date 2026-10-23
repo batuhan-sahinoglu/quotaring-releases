@@ -1,5 +1,132 @@
-# QuotaRing releases
+<p align="center">
+  <img src=".github/assets/banner.png" alt="QuotaRing: every AI limit in your notch" width="820">
+</p>
 
-Signed, notarized builds of QuotaRing, a macOS app that keeps AI coding-tool quotas in view, and the Sparkle feed (`appcast.xml`) the app checks for updates.
+<p align="center">
+  <a href="https://github.com/batuhan-sahinoglu/quotaring-releases/releases/latest/download/QuotaRing.dmg"><img src="https://img.shields.io/badge/Download_for_macOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download for macOS"></a>
+  <a href="https://quotaring.app/#pricing"><img src="https://img.shields.io/badge/Buy_a_license-00ff88?style=for-the-badge&logoColor=black" alt="Buy a license"></a>
+</p>
 
-Download the newest `.dmg` from this repository. Installed copies update themselves.
+<p align="center">
+  <a href="https://github.com/batuhan-sahinoglu/quotaring-releases/releases/latest"><img src="https://img.shields.io/github/v/release/batuhan-sahinoglu/quotaring-releases?label=version&color=111" alt="Latest version"></a>
+  <img src="https://img.shields.io/badge/macOS-14%20Sonoma%2B-111" alt="macOS 14 Sonoma or later">
+  <img src="https://img.shields.io/badge/signed%20%26%20notarized-Apple-111" alt="Signed and notarized">
+  <a href="https://github.com/batuhan-sahinoglu/quotaring-releases/releases"><img src="https://img.shields.io/github/downloads/batuhan-sahinoglu/quotaring-releases/total?color=111" alt="Downloads"></a>
+</p>
+
+<p align="center">
+  <a href="https://quotaring.app">Website</a> ·
+  <a href="https://quotaring.app/release-notes">Release notes</a> ·
+  <a href="https://quotaring.app/roadmap">Roadmap</a> ·
+  <a href="mailto:support@quotaring.app">Support</a>
+</p>
+
+---
+
+**QuotaRing** shows the usage limits of Claude, Codex and 14 more AI tools in your MacBook's notch and on your iPhone. You see when each limit resets, how long it lasts at your pace and which tool still has room.
+
+This repository holds the signed, notarized builds and the update feed. The app itself is closed source.
+
+<p align="center">
+  <img src=".github/assets/notch.png" alt="Claude at 81% in the MacBook notch" width="520">
+</p>
+
+## Install
+
+1. **[Download QuotaRing.dmg](https://github.com/batuhan-sahinoglu/quotaring-releases/releases/latest/download/QuotaRing.dmg)**. It is always the newest version.
+2. Open it and drag **QuotaRing** into **Applications**.
+3. Open QuotaRing. It reads the sign-ins already on your Mac, so Claude Code, Codex, Antigravity and Cursor need no setup.
+
+Requires **macOS Sonoma 14.0 or later**. On a Mac without a notch, QuotaRing draws the same pill at the top of the screen. The menu bar, Dock panel and floating rings work on every Mac.
+
+## Activate your license
+
+QuotaRing is a one-time purchase. After you [buy a plan](https://quotaring.app/#pricing), Polar emails you a receipt with your license key. You can also find the key any time in the [customer portal](https://polar.sh/hicupertiny/portal).
+
+Open QuotaRing → **Preferences → License**, paste the key into **Have a key?** and click **Activate**.
+
+| Plan | Price | Tools | Macs |
+|---|---|---|---|
+| Personal | $15 | 2 | 1 |
+| Plus | $29 | 4 | 3 |
+| Pro | $49 | Every tool, as they're added | 5 |
+
+Every plan is a one-time payment with unlimited accounts per tool, the iPhone app included and a **14-day money-back guarantee**. To upgrade, buy the higher plan and paste its key.
+
+## What it does
+
+- **Every limit at a glance.** The notch, menu bar, Dock panel or a floating ring rail. Each window shows its reset time and a forecast at your pace.
+- **Which tool still has room.** When one tool runs low, QuotaRing tells you which one to switch to.
+- **Alerts that matter.** Warnings at your thresholds, and a notice when a limit you hit resets.
+- **Tokens and API value.** Today, this week and this month, broken down by model.
+- **Weekly reports and monthly recaps.** Levels and 127 trophies to chase.
+- **For your coding agents.** Claude Code's status line, an MCP server (`get_quota_status`, `suggest_tool`) and a global shortcut.
+
+<p align="center">
+  <img src=".github/assets/suggestion.png" alt="Claude is at 81%, switch to ChatGPT, it has 96% left" width="520">
+</p>
+
+### On your iPhone
+
+The iPhone app is included with every license. It shows every tool and reset your Mac sees, with Home and Lock Screen widgets, a Live Activity and the Dynamic Island. It syncs through your private iCloud.
+
+<p align="center">
+  <img src=".github/assets/iphone.png" alt="QuotaRing for iPhone" width="260">
+  &nbsp;&nbsp;
+  <img src=".github/assets/widgets.png" alt="QuotaRing widgets" width="300">
+</p>
+
+### Supported tools
+
+Claude Code · Codex · Antigravity · Cursor · GitHub Copilot · OpenRouter · DeepSeek · Moonshot · Kimi · Grok · Amp · OpenCode · GLM (Z.ai) · Kilo · Devin · Command Code
+
+## Updates
+
+QuotaRing updates itself through [Sparkle](https://sparkle-project.org). It checks once a day, or choose **Check for Updates…** in Preferences. Every update is signed with an EdDSA key and checked against the signature in `appcast.xml` before it installs.
+
+| File | What it is |
+|---|---|
+| `QuotaRing-<version>.dmg` | Each release, signed with a Developer ID and notarized by Apple |
+| `appcast.xml` | The Sparkle feed installed copies read |
+| [Releases](https://github.com/batuhan-sahinoglu/quotaring-releases/releases) | The same builds, with `QuotaRing.dmg` always pointing at the newest |
+
+To check a download yourself:
+
+```sh
+spctl -a -t open --context context:primary-signature -vv QuotaRing.dmg
+# QuotaRing.dmg: accepted
+# source=Notarized Developer ID
+```
+
+## Release notes
+
+### 1.0 · October 23, 2026
+
+The first release.
+
+- Usage limits for 16 AI tools in the notch, menu bar, Dock panel and a floating ring rail
+- Reset times and a forecast of how long each limit lasts at your pace
+- A suggestion for which tool still has room
+- Custom alert thresholds and a notice when a limit you hit resets
+- Unlimited accounts per tool, using the sign-ins already on your Mac
+- Tokens by model and their API value
+- Weekly reports, monthly recaps, levels and trophies
+- iPhone app with widgets, Live Activity and the Dynamic Island
+- Claude Code status line, an MCP server and a global shortcut
+- Automatic updates
+
+Every version is listed at [quotaring.app/release-notes](https://quotaring.app/release-notes).
+
+## Privacy
+
+QuotaRing has no server of its own. Usage checks go only to each tool's provider, and your history and credentials stay on your Mac. iPhone sync uses your private iCloud. Licenses go through Polar and updates come from this repository. Details: [quotaring.app/privacy](https://quotaring.app/privacy).
+
+## Support
+
+Write to **[support@quotaring.app](mailto:support@quotaring.app)**, or use **Send Feedback** in the app. It attaches crash reports only if you choose to send them.
+
+[Terms of service](https://quotaring.app/terms) · [Privacy policy](https://quotaring.app/privacy) · [Customer portal](https://polar.sh/hicupertiny/portal)
+
+---
+
+<sub>© 2026 QuotaRing by zenora.studio. Not affiliated with Anthropic, OpenAI, Google or any other provider. Product names belong to their owners.</sub>

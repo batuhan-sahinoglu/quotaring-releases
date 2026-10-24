@@ -3,6 +3,18 @@
     <channel>
         <title>QuotaRing</title>
         <item>
+            <title>1.0.2</title>
+            <pubDate>Sat, 24 Oct 2026 10:03:43 +0300</pubDate>
+            <sparkle:version>163</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://raw.githubusercontent.com/batuhan-sahinoglu/quotaring-releases/main/QuotaRing-1.0.2.dmg" length="7598840" type="application/octet-stream" sparkle:edSignature="cdw4ZDnmG/UFRyGtHXDvTvWw+bKI/wTGyjhfuI7IKM4PYU788BzWMrPFC+iQyzK/MhIDboAOYPxWJ/+Nk/TgCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/batuhan-sahinoglu/quotaring-releases/main/QuotaRing163-160.delta" sparkle:deltaFrom="160" length="655522" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9qS+J1Zqn6ECk/cRIZQqss5bKkuJizGrPgiRXHSClBlWE38OM98FYOn16NmLLz2hgiZqOXI6Cjiw1ZGTWQk/Bw=="/>
+                <enclosure url="https://raw.githubusercontent.com/batuhan-sahinoglu/quotaring-releases/main/QuotaRing163-156.delta" sparkle:deltaFrom="156" length="756118" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XA8ALu8AHyv+GwgWccSqm89oIrfbYkWGIE/rud1k7GN8TlhF/UWq3qBykn9wfh++m0xcLuyJB/gMA+dRkLfEBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.1</title>
             <pubDate>Sat, 24 Oct 2026 09:47:52 +0300</pubDate>
             <sparkle:version>160</sparkle:version>
@@ -12,14 +24,6 @@
             <sparkle:deltas>
                 <enclosure url="https://raw.githubusercontent.com/batuhan-sahinoglu/quotaring-releases/main/QuotaRing160-156.delta" sparkle:deltaFrom="156" length="655594" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3VKr34+HPpU99NsusEBBdYV9cFKhTKp4kvpGvevHTSzaVjsTB8wqHu8Z23keLbul+/sBpCcIaODA4ycrDiKLBg=="/>
             </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Fri, 23 Oct 2026 22:40:38 +0300</pubDate>
-            <sparkle:version>156</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://raw.githubusercontent.com/batuhan-sahinoglu/quotaring-releases/main/QuotaRing-1.0.dmg" length="7578149" type="application/octet-stream" sparkle:edSignature="8NTr4OB48NjTxChLd10UBRowM7BQSm1qKi84JYvTa/yOOyEFKEEWpoDiizY8JOtAhJ4TOhASJ34+9XyfOLZEBA=="/>
         </item>
     </channel>
 </rss>

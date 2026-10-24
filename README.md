@@ -100,6 +100,16 @@ spctl -a -t open --context context:primary-signature -vv QuotaRing.dmg
 
 ## Release notes
 
+### 1.0.2 · October 24, 2026
+
+- Claude keeps updating on Macs where you only use the Claude app. When Claude Code's sign-in expires, QuotaRing asks Claude Code to renew it. No message goes to a model and nothing shows up in your sessions.
+- Codex no longer reports a sign-out when it has simply sat unused. The last reading stays and updates the next time Codex runs.
+
+### 1.0.1 · October 24, 2026
+
+- Claude no longer reports a sign-out when Claude Code's session has simply expired. The last reading stays and updates the next time Claude Code runs.
+- The menu bar drops "Why this tool?". The suggestion to switch still appears when a limit runs short, and the reasoning is in Preferences → Status.
+
 ### 1.0 · October 23, 2026
 
 The first release.

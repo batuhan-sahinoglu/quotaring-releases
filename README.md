@@ -103,6 +103,10 @@ spctl -a -t open --context context:primary-signature -vv QuotaRing.dmg
 
 ## Release notes
 
+### 1.3 · Anonymous usage data
+
+- Anonymous usage data: QuotaRing now sends a daily, anonymous count of active Macs with your plan, version, connected tools and surfaces, plus taps on a few features, to its own self-hosted analytics. Never accounts, projects, sessions, prompts or usage numbers. Switch it off any time in Preferences → General → Privacy.
+
 ### 1.2.1 · October 24, 2026
 
 - QuotaRing uses far less energy while your agents work. Every time Claude Code, Codex or Antigravity wrote to a session, QuotaRing rechecked every trophy against your whole usage history, up to four times over, working out the day and week of each reading one by one. With a month of history that showed up as bursts of 10–30% CPU for as long as an agent was working. Trophies are now checked at most once a minute, each check does its date math once per day rather than once per reading, and a new trophy still unlocks within a minute.
@@ -149,7 +153,7 @@ Every version is listed at [quotaring.app/release-notes](https://quotaring.app/r
 
 ## Privacy
 
-QuotaRing has no server of its own. Usage checks go only to each tool's provider, and your history and credentials stay on your Mac. iPhone sync uses your private iCloud. Licenses go through Polar and updates come from this repository. Details: [quotaring.app/privacy](https://quotaring.app/privacy).
+Usage checks go only to each tool's provider, and your history and credentials stay on your Mac. iPhone sync uses your private iCloud. Licenses go through Polar and updates come from this repository. The Mac app also sends a few anonymous usage events (no accounts, projects or usage numbers) to QuotaRing's own analytics, and you can switch that off in Preferences → General → Privacy. QuotaRing has no server of its own for your usage. Details: [quotaring.app/privacy](https://quotaring.app/privacy).
 
 ## Support
 

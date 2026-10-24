@@ -3,6 +3,19 @@
     <channel>
         <title>QuotaRing</title>
         <item>
+            <title>1.1</title>
+            <pubDate>Sat, 24 Oct 2026 21:00:44 +0300</pubDate>
+            <sparkle:version>164</sparkle:version>
+            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://raw.githubusercontent.com/batuhan-sahinoglu/quotaring-releases/main/QuotaRing-1.1.dmg" length="7662696" type="application/octet-stream" sparkle:edSignature="EbsTEZ1Lr0A+AHWKVW0LwniiWtR12qnpeG4K14L0EixyvF4JEgmLIwBKLkqNqJ9LwxTQiqAY6uSZU6UwElzFBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/batuhan-sahinoglu/quotaring-releases/main/QuotaRing164-163.delta" sparkle:deltaFrom="163" length="916994" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/ZBe81Op2I8SMyZyrEmjPCWsFrISldKExl7J8bNRLeRYyYUpzj3E89WOBE6MbVLUrLO3uZL4CC1Xtmc2LwOLBQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/batuhan-sahinoglu/quotaring-releases/main/QuotaRing164-160.delta" sparkle:deltaFrom="160" length="983266" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BTD2urHpW8XkcmjyQ2gQXWSEiXxzdly3mZL3pLQdEIPGSCtXa6Ty2HywcjLW9w9hgzrraka0JOq0j95e/XC7CA=="/>
+                <enclosure url="https://raw.githubusercontent.com/batuhan-sahinoglu/quotaring-releases/main/QuotaRing164-156.delta" sparkle:deltaFrom="156" length="1009214" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MCPPMXwknjvworJfHAcubVSpGTh2J+UHXh9ZtQ9kO0b52lCksbBp308GFq6VK3eQI2cZ9O4w8x2TrHpXHyAUBQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.2</title>
             <pubDate>Sat, 24 Oct 2026 10:03:43 +0300</pubDate>
             <sparkle:version>163</sparkle:version>

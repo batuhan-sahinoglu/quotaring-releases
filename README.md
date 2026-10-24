@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/batuhan-sahinoglu/quotaring-releases/releases/latest/download/QuotaRing.dmg"><img src="https://img.shields.io/badge/Download_for_macOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download for macOS"></a>
-  <a href="https://quotaring.app/#pricing"><img src="https://img.shields.io/badge/Buy_a_license-00ff88?style=for-the-badge&logoColor=black" alt="Buy a license"></a>
+  <a href="https://quotaring.app/#pricing"><img src="https://img.shields.io/badge/See_plans-00ff88?style=for-the-badge&logoColor=black" alt="See plans"></a>
 </p>
 
 <p align="center">
@@ -17,7 +17,6 @@
 <p align="center">
   <a href="https://quotaring.app">Website</a> ·
   <a href="https://quotaring.app/release-notes">Release notes</a> ·
-  <a href="https://quotaring.app/roadmap">Roadmap</a> ·
   <a href="mailto:support@quotaring.app">Support</a>
 </p>
 
@@ -35,23 +34,26 @@ This repository holds the signed, notarized builds and the update feed. The app 
 
 1. **[Download QuotaRing.dmg](https://github.com/batuhan-sahinoglu/quotaring-releases/releases/latest/download/QuotaRing.dmg)**. It is always the newest version.
 2. Open it and drag **QuotaRing** into **Applications**.
-3. Open QuotaRing. It reads the sign-ins already on your Mac, so Claude Code, Codex, Antigravity and Cursor need no setup.
+3. Open QuotaRing. It reads the sign-ins already on your Mac, so Claude Code, Codex, Antigravity and Cursor need no setup. It's free for one tool, with no key and no sign-up.
 
 Requires **macOS Sonoma 14.0 or later**. On a Mac without a notch, QuotaRing draws the same pill at the top of the screen. The menu bar, Dock panel and floating rings work on every Mac.
 
-## Activate your license
+## Free and paid plans
 
-QuotaRing is a one-time purchase. After you [buy a plan](https://quotaring.app/#pricing), Polar emails you a receipt with your license key. You can also find the key any time in the [customer portal](https://polar.sh/hicupertiny/portal).
+QuotaRing is free for one tool: the one you use most, with one account, in the notch and the menu bar, with reset times, the pace forecast and alerts. A paid plan adds more tools and accounts, the iPhone app, the Dock and floating rings, recaps and trophies, agent alerts, the status line and the MCP server.
+
+After you [buy a plan](https://quotaring.app/#pricing), Polar emails you a receipt with your license key. You can also find the key any time in the [customer portal](https://polar.sh/hicupertiny/portal).
 
 Open QuotaRing → **Preferences → License**, paste the key into **Have a key?** and click **Activate**.
 
 | Plan | Price | Tools | Macs |
 |---|---|---|---|
+| Free | $0 | 1 | Any |
 | Personal | $15 | 2 | 1 |
 | Plus | $29 | 4 | 3 |
 | Pro | $49 | Every tool, as they're added | 5 |
 
-Every plan is a one-time payment with unlimited accounts per tool, the iPhone app included and a **14-day money-back guarantee**. To upgrade, buy the higher plan and paste its key.
+Every paid plan is a one-time payment with unlimited accounts per tool, the iPhone app included and a **14-day money-back guarantee**. To upgrade, buy the higher plan and paste its key.
 
 ## What it does
 
@@ -68,7 +70,7 @@ Every plan is a one-time payment with unlimited accounts per tool, the iPhone ap
 
 ### On your iPhone
 
-The iPhone app is included with every license. It shows every tool and reset your Mac sees, with Home and Lock Screen widgets, a Live Activity and the Dynamic Island. It syncs through your private iCloud.
+The iPhone app is included with every paid plan. It shows every tool and reset your Mac sees, with Home and Lock Screen widgets, a Live Activity and the Dynamic Island. It syncs through your private iCloud.
 
 <p align="center">
   <img src=".github/assets/iphone.png" alt="QuotaRing for iPhone" width="260">
@@ -99,6 +101,13 @@ spctl -a -t open --context context:primary-signature -vv QuotaRing.dmg
 ```
 
 ## Release notes
+
+### 1.1 · October 24, 2026
+
+- QuotaRing is free for one tool. Without a key it shows the tool you use most, with one account, in the notch and the menu bar, with reset times, the pace forecast and alerts.
+- A paid key adds more tools and accounts, the iPhone app and its widgets, the Dock and floating rings, recaps, levels and trophies, agent alerts, the status line and the MCP server.
+- A license that expires or can't be confirmed for 30 days now drops to the Free plan instead of locking QuotaRing.
+- When another tool is on your Mac, the notch and the menu bar say so, with a link to the plans.
 
 ### 1.0.2 · October 24, 2026
 

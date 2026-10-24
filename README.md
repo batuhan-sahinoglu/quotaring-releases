@@ -40,7 +40,7 @@ Requires **macOS Sonoma 14.0 or later**. On a Mac without a notch, QuotaRing dra
 
 ## Free and paid plans
 
-QuotaRing is free for one tool: the one you use most, with one account, in the notch and the menu bar, with reset times, the pace forecast and alerts. A paid plan adds more tools and accounts, the iPhone app, the Dock and floating rings, recaps and trophies, agent alerts, the status line and the MCP server.
+QuotaRing is free for one tool: the one you use most, with one account, in the notch and the menu bar, with reset times, the pace forecast, alerts and which sessions used Claude's 5-hour limit. A paid plan adds more tools and accounts, the iPhone app, the Dock and floating rings, recaps and trophies, which sessions used the weekly limit, agent alerts, the status line and the MCP server.
 
 After you [buy a plan](https://quotaring.app/#pricing), Polar emails you a receipt with your license key. You can also find the key any time in the [customer portal](https://polar.sh/hicupertiny/portal).
 
@@ -61,6 +61,7 @@ Every paid plan is a one-time payment with unlimited accounts per tool, the iPho
 - **Which tool still has room.** When one tool runs low, QuotaRing tells you which one to switch to.
 - **Alerts that matter.** Warnings at your thresholds, and a notice when a limit you hit resets.
 - **Tokens and API value.** Today, this week and this month, broken down by model.
+- **Which sessions used your limit.** Every Claude Code session in the current 5-hour or weekly window, with its tokens and about how much of the limit it took.
 - **Weekly reports and monthly recaps.** Levels and 127 trophies to chase.
 - **For your coding agents.** Claude Code's status line, an MCP server (`get_quota_status`, `suggest_tool`) and a global shortcut.
 
@@ -101,6 +102,12 @@ spctl -a -t open --context context:primary-signature -vv QuotaRing.dmg
 ```
 
 ## Release notes
+
+### 1.2 · October 24, 2026
+
+- See which sessions used Claude's limit. Under Claude, the notch and the menu bar list every Claude Code session on your Mac that worked in the current window, finished ones too, biggest first, with its project and branch, its tokens and about how much of the limit it took.
+- Switch between the 5-hour and the weekly window. The 5-hour split is on every plan, Free included. The weekly split comes with a paid plan.
+- Anthropic reports one figure for the whole account, so each share is an estimate, split by each session's token value. Use on claude.ai or another device counts toward the limit but leaves no session on your Mac, so it's spread across your Mac's sessions.
 
 ### 1.1 · October 24, 2026
 

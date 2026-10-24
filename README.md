@@ -103,6 +103,10 @@ spctl -a -t open --context context:primary-signature -vv QuotaRing.dmg
 
 ## Release notes
 
+### 1.2.1 · October 24, 2026
+
+- QuotaRing uses far less energy while your agents work. Every time Claude Code, Codex or Antigravity wrote to a session, QuotaRing rechecked every trophy against your whole usage history, up to four times over, working out the day and week of each reading one by one. With a month of history that showed up as bursts of 10–30% CPU for as long as an agent was working. Trophies are now checked at most once a minute, each check does its date math once per day rather than once per reading, and a new trophy still unlocks within a minute.
+
 ### 1.2 · October 24, 2026
 
 - See which sessions used Claude's limit. Under Claude, the notch and the menu bar list every Claude Code session on your Mac that worked in the current window, finished ones too, biggest first, with its project and branch, its tokens and about how much of the limit it took.

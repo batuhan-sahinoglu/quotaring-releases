@@ -103,6 +103,12 @@ spctl -a -t open --context context:primary-signature -vv QuotaRing.dmg
 
 ## Release notes
 
+### 1.4 · November 7, 2026
+
+- QuotaRing shares the notch with other apps built on the same notch. When one is running, its card appears as a tab beside QuotaRing's, and its news shows once as a short line under the folded notch, after QuotaRing's own agent and limit banners.
+- QuotaRing's actions stay under its own tabs and no longer appear under another app's card.
+- The notch's tabs and cards are drawn flat, without glows or gradients.
+
 ### 1.3 · Anonymous usage data
 
 - Anonymous usage data: QuotaRing now sends a daily, anonymous count of active Macs with your plan, version, connected tools and surfaces, plus taps on a few features, to its own self-hosted analytics. Never accounts, projects, sessions, prompts or usage numbers. Switch it off any time in Preferences → General → Privacy.

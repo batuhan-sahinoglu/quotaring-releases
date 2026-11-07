@@ -103,6 +103,10 @@ spctl -a -t open --context context:primary-signature -vv QuotaRing.dmg
 
 ## Release notes
 
+### 1.4.1 · November 7, 2026
+
+- QuotaRing's anonymous usage data now goes to analytics.zenora.studio. On some networks the old address couldn't be reached, so nothing was sent. Nothing else about what is sent has changed, and you can still switch it off in Preferences → General → Privacy.
+
 ### 1.4 · November 7, 2026
 
 - QuotaRing shares the notch with other apps built on the same notch. When one is running, its card appears as a tab beside QuotaRing's, and its news shows once as a short line under the folded notch, after QuotaRing's own agent and limit banners.

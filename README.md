@@ -103,6 +103,10 @@ spctl -a -t open --context context:primary-signature -vv QuotaRing.dmg
 
 ## Release notes
 
+### 1.4.2 · November 11, 2026
+
+- QuotaRing's anonymous daily count now waits for a connection and tries again within the hour when a send fails, for example right after your Mac wakes, instead of skipping that day.
+
 ### 1.4.1 · November 7, 2026
 
 - QuotaRing's anonymous usage data now goes to analytics.zenora.studio. On some networks the old address couldn't be reached, so nothing was sent. Nothing else about what is sent has changed, and you can still switch it off in Preferences → General → Privacy.

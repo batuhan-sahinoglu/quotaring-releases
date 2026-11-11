@@ -103,6 +103,11 @@ spctl -a -t open --context context:primary-signature -vv QuotaRing.dmg
 
 ## Release notes
 
+### 1.4.3 · November 11, 2026
+
+- Another app's card in the notch is lighter and shorter: its main figure sits large at the top with its periods beside it, the calendar drops its filled squares so each day shows its amount over a thin bar, and its list sits on hairlines instead of boxes.
+- Another app's news, such as a sale, arrives as a two-line card under the notch: who and what, the amount, and where it came from.
+
 ### 1.4.2 · November 11, 2026
 
 - QuotaRing's anonymous daily count now waits for a connection and tries again within the hour when a send fails, for example right after your Mac wakes, instead of skipping that day.

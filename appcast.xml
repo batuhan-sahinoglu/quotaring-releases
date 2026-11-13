@@ -3,6 +3,21 @@
     <channel>
         <title>QuotaRing</title>
         <item>
+            <title>1.4.4</title>
+            <pubDate>Fri, 13 Nov 2026 15:23:01 +0300</pubDate>
+            <sparkle:version>178</sparkle:version>
+            <sparkle:shortVersionString>1.4.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://raw.githubusercontent.com/batuhan-sahinoglu/quotaring-releases/main/QuotaRing-1.4.4.dmg" length="8104026" type="application/octet-stream" sparkle:edSignature="bGzlj9QOyorfsI3NQl35SCS6mXiSHaCaIz3HBMiU75+sgnqIHbY//ud1NChw/gEWbvBopuS1OqlgigaKfwH8AQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/batuhan-sahinoglu/quotaring-releases/main/QuotaRing178-177.delta" sparkle:deltaFrom="177" length="447838" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MW0tKqxN/i/eFADEMKovpy5CAv2w7xVczUUMDzvWyAGjYt9edq3bJPw1cPeJYy78X4VJr+d4VFyklXP7vlagAA=="/>
+                <enclosure url="https://raw.githubusercontent.com/batuhan-sahinoglu/quotaring-releases/main/QuotaRing178-176.delta" sparkle:deltaFrom="176" length="581618" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GbablEyzs2N6MXvXCDfMbgERHbRIEOjbBg0+JrWsjhrn3M0Z+DDduLDjrL8o3vTpnqDfplz141ro2ckpxsD/AQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/batuhan-sahinoglu/quotaring-releases/main/QuotaRing178-175.delta" sparkle:deltaFrom="175" length="703242" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qa2AKjCvfKDMWtBudVbFOOUdBDporxluxrC6ikqxE93bJSIfmR7lFmIwoq0w0NG7fbWkji0cxXgbY5QRLUfWCQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/batuhan-sahinoglu/quotaring-releases/main/QuotaRing178-173.delta" sparkle:deltaFrom="173" length="738242" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RhDWIEZteXwc7j8vVQliLnucjwjUjkJwDuJrGRpIIi7Hm9qfxJiZyD9nkwpVcniKqnv9dI3fWXHH24uDneziDA=="/>
+                <enclosure url="https://raw.githubusercontent.com/batuhan-sahinoglu/quotaring-releases/main/QuotaRing178-168.delta" sparkle:deltaFrom="168" length="916382" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="M9p05OC0rwd/ZK18jaISduKsp5ouXHfcfNxrChoXPpp6K1EVgVoRaOOoUbKxDE2y6tlYi/LtOoQqlDKWGdIoAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.4.3</title>
             <pubDate>Wed, 11 Nov 2026 23:05:51 +0300</pubDate>
             <sparkle:version>177</sparkle:version>
@@ -28,19 +43,6 @@
                 <enclosure url="https://raw.githubusercontent.com/batuhan-sahinoglu/quotaring-releases/main/QuotaRing176-175.delta" sparkle:deltaFrom="175" length="520886" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tqiJ5F/978AxbuNk50QJHIwUlNFn3z3qPnm1LRDECjwLhnm3e5iz9DJyoNP/qq/7EBj0VBNeT4rPKA7ovhYsCw=="/>
                 <enclosure url="https://raw.githubusercontent.com/batuhan-sahinoglu/quotaring-releases/main/QuotaRing176-173.delta" sparkle:deltaFrom="173" length="616770" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KevNdxBjP4CkIWAMsGdrw3AQ7RFYPkKFNaa+lgrBsvyvk1vCWp7jtIFjyhfuwAah/v61xpyurLcsuuisWo54DA=="/>
                 <enclosure url="https://raw.githubusercontent.com/batuhan-sahinoglu/quotaring-releases/main/QuotaRing176-168.delta" sparkle:deltaFrom="168" length="875562" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="atdTzlmC5naX98XGZrzmC4M8k3IJhPltcwpzzDChDoj6MSmJxlXU5Eb+hROyghbA3mvJeQ/4CYp3y9KIgupFDA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.4.1</title>
-            <pubDate>Sat, 07 Nov 2026 22:30:51 +0300</pubDate>
-            <sparkle:version>175</sparkle:version>
-            <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
-            <sparkle:criticalUpdate/>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://raw.githubusercontent.com/batuhan-sahinoglu/quotaring-releases/main/QuotaRing-1.4.1.dmg" length="8062702" type="application/octet-stream" sparkle:edSignature="RtvlMLNFkENgSvNrjaLw8XGYu7ucipAxgeLVPqu4IMeQLJivGR78UpsBRVGoyFcLTY42ibwl5inYDa6ZakV9BQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/batuhan-sahinoglu/quotaring-releases/main/QuotaRing175-173.delta" sparkle:deltaFrom="173" length="454902" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GnEk3tkmm/6hjgM84zIog+0Qr3LtCjaxbJL9cTv+gf3D1RiVRfcJE7qnYo/3djoObSxpSwhWBOciaRi7Iz2ACA=="/>
-                <enclosure url="https://raw.githubusercontent.com/batuhan-sahinoglu/quotaring-releases/main/QuotaRing175-168.delta" sparkle:deltaFrom="168" length="816850" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="A/TohO92wUzk/mpi9HLkLYj4mWFMWMVNa+cn4L6bVhEDAfdbwZITiUvZxoCp95rwr1jNuCOdExo2A9F6Fpz6CQ=="/>
             </sparkle:deltas>
         </item>
     </channel>

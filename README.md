@@ -103,6 +103,11 @@ spctl -a -t open --context context:primary-signature -vv QuotaRing.dmg
 
 ## Release notes
 
+### 1.4.4 · November 13, 2026
+
+- Another app's calendar in the notch is now a row of short bars per week, each as tall as its day was, with the day numbers beneath and the weeks still ahead left out. Hover a day to see its figure at the top of the card.
+- The card's period switch is plain words that no longer get cut short in the notch's width, and the month line scales down a step before it is cut.
+
 ### 1.4.3 · November 11, 2026
 
 - Another app's card in the notch is lighter and shorter: its main figure sits large at the top with its periods beside it, the calendar drops its filled squares so each day shows its amount over a thin bar, and its list sits on hairlines instead of boxes.

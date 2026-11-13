@@ -103,6 +103,10 @@ spctl -a -t open --context context:primary-signature -vv QuotaRing.dmg
 
 ## Release notes
 
+### 1.4.5 · November 13, 2026
+
+- Another app's calendar in the notch now looks like a small month calendar: plain day numbers, a dot under each day that had sales and today in a white circle. Hover a day to see its figure at the top of the card.
+
 ### 1.4.4 · November 13, 2026
 
 - Another app's calendar in the notch is now a row of short bars per week, each as tall as its day was, with the day numbers beneath and the weeks still ahead left out. Hover a day to see its figure at the top of the card.

@@ -57,7 +57,7 @@ Every paid plan is a one-time payment with unlimited accounts per tool, the iPho
 
 ## What it does
 
-- **Every limit at a glance.** The notch, menu bar, Dock panel or a floating ring rail. Each window shows its reset time and a forecast at your pace.
+- **Every limit at a glance.** The notch, menu bar, Dock panel or a floating ring rail. Each window shows its reset time and a forecast at your pace. Open the notch and the tool on show sits beside every other tool, each limit with a tick where an even pace would be by now.
 - **Which tool still has room.** When one tool runs low, QuotaRing tells you which one to switch to.
 - **Alerts that matter.** Warnings at your thresholds, and a notice when a limit you hit resets.
 - **Tokens and API value.** Today, this week and this month, broken down by model.
@@ -102,6 +102,14 @@ spctl -a -t open --context context:primary-signature -vv QuotaRing.dmg
 ```
 
 ## Release notes
+
+### 1.5.0 · November 24, 2026
+
+- The open notch is now a wide panel. The tool on show fills the left: its fullest limit as one large figure, when it resets and what will be left at your pace, with its other limits beneath.
+- Every limit has a tick where an even pace would be by now. Past it, the bar turns amber and says how early the limit would run out.
+- All your tools and accounts are listed on the right. Click one to show it; running agents have a row of their own, and the switch suggestion sits underneath.
+- Profile, Share Recap, Preferences and Quit are at the top right of the panel, and other apps' tabs at the bottom. The usage chart, token table and limit breakdown are in the menu bar panel.
+- Another app's tab can now show figures across the top with a chart by day: hover a bar to see what it holds, click it to list that day.
 
 ### 1.4.5 · November 13, 2026
 

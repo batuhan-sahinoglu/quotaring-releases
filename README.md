@@ -103,6 +103,11 @@ spctl -a -t open --context context:primary-signature -vv QuotaRing.dmg
 
 ## Release notes
 
+### 1.5.2 · November 24, 2026
+
+- Under the limits, today's tokens now sit above 7 days and this month, each with its value at API prices, in aligned columns.
+- When a tool has three limits, the left column scrolls instead of cutting them off.
+
 ### 1.5.1 · November 24, 2026
 
 - The notch panel shows everything again: your usage today by the hour, this week by the day and the last 180 days, next to the burn rate and how long the limit lasts at it.

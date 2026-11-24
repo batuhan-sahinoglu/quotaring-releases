@@ -103,6 +103,13 @@ spctl -a -t open --context context:primary-signature -vv QuotaRing.dmg
 
 ## Release notes
 
+### 1.5.1 · November 24, 2026
+
+- The notch panel shows everything again: your usage today by the hour, this week by the day and the last 180 days, next to the burn rate and how long the limit lasts at it.
+- Today's tokens and their API value sit under the limits. The Tokens tab breaks today, 7 days and the month down by input, output and cache, with their API value and the models you used.
+- The Sessions tab shows which sessions used the 5-hour and weekly limits, and how much of each.
+- The panel is shorter and has no empty row at the bottom when no other app shares the notch.
+
 ### 1.5.0 · November 24, 2026
 
 - The open notch is now a wide panel. The tool on show fills the left: its fullest limit as one large figure, when it resets and what will be left at your pace, with its other limits beneath.

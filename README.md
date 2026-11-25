@@ -103,6 +103,12 @@ spctl -a -t open --context context:primary-signature -vv QuotaRing.dmg
 
 ## Release notes
 
+### 1.5.3 · November 25, 2026
+
+- The menu bar panel now matches the notch: every tool and account in one list with a tick where an even pace would be, the picked tool's limits with its tokens for today, 7 days and the month, then Usage, Tokens or Sessions one click apart.
+- The menu bar panel resizes as you switch tools or sections.
+- Another app's tab in the notch can show a calendar next to its latest entries again: pick a day to list it.
+
 ### 1.5.2 · November 24, 2026
 
 - Under the limits, today's tokens now sit above 7 days and this month, each with its value at API prices, in aligned columns.
